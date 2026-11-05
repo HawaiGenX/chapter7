@@ -7,5 +7,5 @@ while True:
     if city == 'quit':
         break
     else:
-        print("")
+        print(f"I'd love to go to {city.title()}!")
     
