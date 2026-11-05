@@ -5,4 +5,8 @@ topping = True
 
 while topping:
     order = input(prompt)
+    if order == 'exit':
+        topping = False
+    else:
+        print(order)
     
