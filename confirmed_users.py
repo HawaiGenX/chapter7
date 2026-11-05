@@ -8,6 +8,7 @@ while unconfirmed_users:
     print(f"Verifying user: {current_user.title()}")
     confirmed_users.append(current_user)
 #Print confirmed users
-print("The following users have been confimed")
+print(f"\nThe following users have been confimed")
 for confirmed_user in confirmed_users:
     print(f"{confirmed_user.title()}")
+print("\n")
