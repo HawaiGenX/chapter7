@@ -16,8 +16,8 @@ while polling_active:
     else:
         polling_active = False
 print("\n")
-print()
 print(responses)
+print()
 # Polling is complete show the results
 print("-------------Poll Results-------------")
 for name, response in responses.items():
