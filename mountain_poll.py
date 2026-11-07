@@ -25,6 +25,7 @@ for name, response in responses.items():
 # Find the winning mountain (the one chosen the most)
 print()
 votes = list(responses.values())
+print(votes)
 winner = max(set(votes), key=votes.count)
 print(f"\nThe winning mountain is {winner.title()} with {votes.count(winner)}")
 print()
