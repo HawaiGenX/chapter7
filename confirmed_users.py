@@ -1,10 +1,10 @@
 # A list of users need to be verified
-unconfirmed_users = ['alice', 'brian', 'john', 'candace', 'mary']
+unconfirmed_users = ['alice john', 'brian carter', 'john malik', 'candace edwards', 'mary jacobs']
 
 confirmed_users =[]
 
 while unconfirmed_users:
-    current_user = unconfirmed_users.pop()
+    current_user = unconfirmed_users.pop(0) 
     print(f"Verifying user: {current_user.title()}")
     confirmed_users.append(current_user)
 #Print confirmed users
