@@ -10,3 +10,9 @@ while polling_active:
 #Store the response in the dictionary responses
     responses[name] = response
 #find out if anyone else is goint to take the poll
+    question = input("Do you know anyone would like to participate in this polling? (yes/no) ")
+    if  question == "yes":
+        polling_active = True
+    else:
+        polling_active = False
+#Polling is complete
