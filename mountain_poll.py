@@ -15,7 +15,7 @@ while polling_active:
         polling_active = True
     else:
         polling_active = False
-print("\n")
+print()
 print(responses)
 print()
 # Polling is complete show the results
@@ -23,7 +23,7 @@ print("-------------Poll Results-------------")
 for name, response in responses.items():
     print(f"{name.title()} would like to climb {response.title()}")
 # Find the winning mountain (the one chosen the most)
-print("\n")
+print()
 votes = list(responses.values())
 winner = max(set(votes), key=votes.count)
 print(f"\nThe winning mountain is {winner.title()} with {votes.count(winner)}")
