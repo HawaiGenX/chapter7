@@ -42,4 +42,7 @@ patients = {
 }
 #Print total patients
 total_patients = len(patients)
-print(total_patients)
+
+#Create a list of keys of the main dictionary
+id = list(patients.keys())
+print(id)
