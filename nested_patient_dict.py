@@ -46,3 +46,18 @@ total_patients = len(patients)
 #Create a list of keys of the main dictionary
 id = list(patients.keys())
 print(id)
+count = 0
+#Printing patient's details
+while count < len(id):
+    patient_key = id[count]
+    patient_details = patients[patient_key] #detail about each key(or dictionary) of the main dictionary
+    print(f"\n{patient_key}")
+    
+    keys = list(patient_details.keys())
+    k = 0
+    while k < len(keys):
+        print(f"\n{keys[k]}: {patient_details[keys[k]]}")
+        
+        k = k + 1
+        
+    count +=1
