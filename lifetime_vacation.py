@@ -13,8 +13,8 @@ while dream_vacation:
     question = input("Do you have anyone in mind and their vacation of dream vacation? (yes/no): ")
     
     if question == "yes":
-        dream_vacation = True
+        dream_vacation = True #continue, could also be used here inplace of dream_vacation = True
     else:
-        dream_vacation = False
+        dream_vacation = False #break, could also be used here inplace of dream_vacation = False
 
 print(responses)
