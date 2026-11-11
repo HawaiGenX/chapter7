@@ -40,3 +40,6 @@ patients = {
         "blood_type": "O-",
     },
 }
+#Print total patients
+total_patients = len(patients)
+print(total_patients)
