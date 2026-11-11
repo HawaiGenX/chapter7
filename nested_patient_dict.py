@@ -42,7 +42,7 @@ patients = {
 }
 #Create a list of keys of the main dictionary
 id = list(patients.keys())
-print(id)
+
 count = 0
 #Printing patient's details
 while count < len(id):
@@ -58,3 +58,4 @@ while count < len(id):
         k = k + 1
         
     count +=1
+print()
