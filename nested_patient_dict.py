@@ -40,9 +40,6 @@ patients = {
         "blood_type": "O-",
     },
 }
-#Print total patients
-total_patients = len(patients)
-
 #Create a list of keys of the main dictionary
 id = list(patients.keys())
 print(id)
@@ -56,7 +53,7 @@ while count < len(id):
     keys = list(patient_details.keys())
     k = 0
     while k < len(keys):
-        print(f"\n{keys[k]}: {patient_details[keys[k]]}")
+        print(f"{keys[k]}: {patient_details[keys[k]]}")
         
         k = k + 1
         
